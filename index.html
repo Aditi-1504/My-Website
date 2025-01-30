@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip Hero Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MakeMyTrip</div>
+            <ul class="nav-links">
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Trains</a></li>
+                <li><a href="#">Buses</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Book Your Next Trip with Us</h1>
+            <p>Find the best deals on flights, hotels, and more!</p>
+
+            <!-- Search Form -->
+            <div class="search-box">
+                <div class="tabs">
+                    <button class="tab active" onclick="showTab('flights')">Flights</button>
+                    <button class="tab" onclick="showTab('hotels')">Hotels</button>
+                    <button class="tab" onclick="showTab('trains')">Trains</button>
+                </div>
+                <div class="search-form">
+                    <input type="text" placeholder="From" id="from">
+                    <input type="text" placeholder="To" id="to">
+                    <input type="date" id="date">
+                    <button id="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
