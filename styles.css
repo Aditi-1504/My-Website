@@ -5,9 +5,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-body{
-     overflow-x: hidden;
-}
+
 
 /* Navbar */
 .navbar {
@@ -45,7 +43,7 @@ background: url('background.jpg') no-repeat center center/cover;        display:
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: black	;
+    color: white	;
     padding: 20px;
 }
 .hero-content {
